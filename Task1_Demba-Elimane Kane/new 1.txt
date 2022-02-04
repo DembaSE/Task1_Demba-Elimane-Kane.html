@@ -1,0 +1,79 @@
+html{
+	display:table-cell; 
+	text-align:center; 
+	vertical-align:middle;
+}
+.title{
+  position:absolute;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 10s linear infinite;
+  display: inline-block;
+  font-size: 60px;
+  padding-right:5%;
+  padding-top:20%;
+  left: 150px;
+  
+  
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+img{
+  position:relative;
+  left: 420px;
+  margin-top:16%;
+  width: 20%;
+  height:20%;
+  border: solid 1px #CCC;
+  -moz-box-shadow: 1px 1px 5px #999;
+  -webkit-box-shadow: 1px 1px 5px #999;
+  box-shadow: 1px 1px 5px #999;
+  border-radius: 10%;
+}
+
+.parent {
+  border: 1px solid black;
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+.child {
+  display: inline-block;
+  border: 1px solid red;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+
+
+
+<div class="footer-dark">
+				<footer>
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12 item text">
+								<h3>Task 1 (Grade 3) -> DA218A VT22 Tekniker för frontend - utveckling </h3
+								<p> Vive la France &#128512;</p>
+							</div>
+						</div>
+						<p class="copyright">No copyright © 2022 Kristianstad University</p>
+					</div>
+				</footer>
+			</div>

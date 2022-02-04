@@ -1,0 +1,175 @@
+html{
+	display:table-cell; 
+	text-align:center; 
+	vertical-align:middle;
+	background: url('images/background.png');
+	background-repeat: repeat-y;
+}
+.title{
+  position:absolute;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 7s linear infinite;
+  display: inline-block;
+  font-size: 63px;
+  padding-top:20%;
+  left: 115px;
+  
+  
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+#imgProfile{
+  position:relative;
+  left: 420px;
+  margin-top:16%;
+  width: 23%;
+  height:23%;
+  border: solid 1px #CCC;
+  -moz-box-shadow: 1px 1px 5px #999;
+  -webkit-box-shadow: 1px 1px 5px #999;
+  box-shadow: 1px 1px 5px #999;
+  border-radius: 10%;
+}
+
+table{
+	margin-top:2%;
+	margin-left:20%;
+    border:2px solid #333;
+	border-collapse: collapse;
+	background-color:#F5FFFA;
+}
+th{
+	background:#e66022;
+	border:1px solid #333;
+	width:300px;
+	border-radius: 5%;
+	
+}
+
+thead,tfoot,td{
+	
+	border:2px solid #333;
+    color:#1a1818;
+	font-family: 'Trebuchet MS', sans-serif;
+}
+
+.player{
+	width:90%;
+	margin-top:8px;
+
+	
+}
+
+#personal{
+    background: #0074D9;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 0 0 1px #5F5A4B, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+    color: #FFFFFF;
+    Font-Family: "Microsoft YaHei", "Tahoma", "boldface", Arial;
+    font-size: 15px;
+    font-weight: bold;
+    height: 24px;
+	width:	600px;
+    line-height: 23px;
+	margin-top:10% !important;
+	margin: auto;  
+    text-shadow: 2px 2px 3px #222222;
+}
+
+#sound{
+    background: #e66022;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 0 0 1px #5F5A4B, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+    color: #FFFFFF;
+    Font-Family: "Microsoft YaHei", "Tahoma", "boldface", Arial;
+    font-size: 15px;
+    font-weight: bold;
+    height: 24px;
+	width:300px;
+    line-height: 23px;
+	margin-top:5% !important;
+	margin: auto;  
+    text-shadow: 2px 2px 3px #222222;
+}
+#image{
+	
+    background:#1D8348 !important ;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 0 0 1px #5F5A4B, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+    color: #FFFFFF;
+    Font-Family: "Microsoft YaHei", "Tahoma", "boldface", Arial;
+    font-size: 15px;
+    font-weight: bold;
+    height: 24px;
+	width:300px;
+    line-height: 23px;
+	margin-top:5% !important;
+	margin: auto;  
+    text-shadow: 2px 2px 3px #222222;
+}
+
+#video{
+	
+    background:#C70039 !important ;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 0 0 1px #5F5A4B, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+    color: #FFFFFF;
+    Font-Family: "Microsoft YaHei", "Tahoma", "boldface", Arial;
+    font-size: 15px;
+    font-weight: bold;
+    height: 24px;
+	width:300px;
+    line-height: 23px;
+	margin-top:5% !important;
+	margin: auto;  
+    text-shadow: 2px 2px 3px #222222;
+}
+
+/* boostrap css*/
+.footer-dark {
+  color:#f0f9ff;
+  background-color:#282d32;
+  width:100%;
+  left:0%;
+  margin-bottom:-111px;
+  position: absolute;
+}
+
+.footer-dark h3 {
+  margin-top:0;
+  font-weight:bold;
+  font-size:16px;
+}
+.footer-dark .item.text {
+  margin-bottom:15px;
+}
+.footer-dark .item.text p {
+  opacity:0.6;
+  margin-bottom:10px;
+}
+.footer-dark .copyright {
+  text-align:center;
+  padding-top:5px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
+}
